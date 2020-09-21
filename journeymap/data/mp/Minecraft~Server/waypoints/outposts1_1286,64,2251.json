@@ -1,0 +1,18 @@
+{
+  "id": "outposts1_1286,64,2251",
+  "name": "outposts1",
+  "icon": "waypoint-normal.png",
+  "x": 1286,
+  "y": 64,
+  "z": 2251,
+  "r": 164,
+  "g": 57,
+  "b": 43,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

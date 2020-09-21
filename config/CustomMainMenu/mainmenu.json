@@ -1,0 +1,184 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:collectivetitle2.png",
+            "posX" : -238,
+            "posY" : 30,
+            "width" : 190,
+            "height" : 45,
+            "alignment" : "top_right"
+        },
+        
+        "edition":
+        {
+            "image" : "mainmenu:collective_logo_main.png",
+            "posX" : -300,
+            "posY" : 23,
+            "width" : 52,
+            "height" : 40,
+            "alignment" : "top_right"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"normalTextColor" : "0",
+            "hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -244,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "top_right",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"normalTextColor" : "0",
+            "hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -244,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+			"normalTextColor" : "0",
+            "hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -244,
+            "posY" : 144,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"normalTextColor" : "0",
+            "hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -244,
+            "posY" : 168,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+			"normalTextColor" : "0",
+            "hoverTextColor" : "0",
+			"shadow" : "false",
+            "posX" : -142,
+            "posY" : 168,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -244,
+            "posY" : 192,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -223,
+            "posY" : 192,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -36,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:starbaseb1.png",
+			"alignment" : "middle"
+		}
+		
+    }
+}

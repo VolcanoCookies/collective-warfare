@@ -1,0 +1,18 @@
+{
+  "id": "Outpostn1_1336,64,1266",
+  "name": "Outpostn1",
+  "icon": "waypoint-normal.png",
+  "x": 1336,
+  "y": 64,
+  "z": 1266,
+  "r": 48,
+  "g": 28,
+  "b": 230,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
