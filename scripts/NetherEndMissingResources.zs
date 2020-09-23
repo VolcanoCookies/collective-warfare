@@ -2,8 +2,8 @@
 val blazeEgg = <minecraft:spawn_egg>.withTag({EntityTag:{id:"minecraft:blaze"}});
 val witherSkeletonEgg = <minecraft:spawn_egg>.withTag({EntityTag:{id:"minecraft:wither_skeleton"}});
 
-# Transposing cobble with lava into magma block
-mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:magma>, <minecraft:cobblestone>, <liquid:lava> * 250, 2000);
+# Transposing cobble with lava into netherrack block
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:netherrack>, <minecraft:cobblestone>, <liquid:lava> * 250, 2000);
 
 # Transposing cobble with ender into end stone block
 mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:end_stone>, <minecraft:cobblestone>, <liquid:ender> * 250, 2000);
@@ -15,7 +15,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(blazeEgg, <minecraft:egg>, <liqui
 mods.thermalexpansion.Transposer.addFillRecipe(witherSkeletonEgg, <minecraft:egg>, <liquid:coal> * 2000, 2000);
 
 # Transpose dirt with coal into soulsand
-mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:coal>, <minecraft:soul_sand>, <liquid:coal> * 200, 2000);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:soul_sand>, <minecraft:dirt>, <liquid:coal> * 200, 2000);
 
 # Craft seed with netherrack for netherwarts
 recipes.addShaped("seed_to_netherwart", <minecraft:nether_wart>, [
